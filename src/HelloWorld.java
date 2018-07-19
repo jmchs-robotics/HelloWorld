@@ -11,5 +11,7 @@ public class HelloWorld {
 		//The code is read from top to bottom, so if you were to add another executable line down below...
 		//It will be ran after the first one.
 		System.out.println("Hello computer!");
+		
+		AdditionsByEric.myMethod();
 	}
 }
