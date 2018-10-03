@@ -6,12 +6,43 @@ public class HelloWorld {
 	public static void main (String[] args) {
 		
 		//When the project is ran, this line will be executed and appear on the console down below.
-		System.out.println("Hello world!");
+		System.out.println("Hello world!  Woo Hoo.  Third.");
 		
 		//The code is read from top to bottom, so if you were to add another executable line down below...
 		//It will be ran after the first one.
 		System.out.println("Hello computer!");
 		
 		AdditionsByEric.myMethod();
-	}
+		
+		String[] a = {"a", "b"};
+		NewClass b = new NewClass();
+		NewClass.newClassMethod( a);
+		b.newClassMethod( a);
+		
+		int j = 1;
+		int k = 1;
+		int l = 0;
+		System.out.println("This is a Fibonacci sequence, the first 10 of them:");
+		for( int i=0; i< 10; i++) {
+			System.out.println("sequence index: " + i + ": " + j);
+			j = j + l;
+			l = k;
+			k = j;
+			
+		}
+
+		j = 1;
+		k = 1;
+		l = 0;
+		System.out.println("This is the same Fibonacci sequence but only the odd numbers:");
+		for( int i=0; i< 10; i++) {
+			if( j/2.0 != j/2) {
+				System.out.println("sequence index: " + i + ": " + j);
+			}
+			j = j + l;
+			l = k;
+			k = j;
+			
+		}
+}
 }
