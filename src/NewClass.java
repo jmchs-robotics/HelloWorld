@@ -9,4 +9,7 @@ public class NewClass {
   public static void secondMethod( int i, int j) {
 	  System.out.println( "secondMethod got the integers: " + i + " and " + j);
   }
+  public static void thirdMethod( int i, int j) {
+	  System.out.println( "secondMethod got the integers: " + i + " and " + j);
+  }
 }
