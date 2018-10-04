@@ -9,7 +9,7 @@ public class HelloWorld {
 		System.out.println("Hello world!  Woo Hoo.  Third.");
 		
 		//The code is read from top to bottom, so if you were to add another executable line down below...
-		//It will be ran after the first one.
+		//It will run after the first one.
 		System.out.println("Hello computer!");
 		
 		AdditionsByEric.myMethod();
