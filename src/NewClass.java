@@ -5,5 +5,8 @@ public class NewClass {
 	for( int i=0; i<args.length; i++) {
 		System.out.println( "args[ " + i + "]= "+args[ i]);
 	}
-}
+  }
+  public static void secondMethod( int i, int j) {
+	  System.out.println( "secondMethod got the integers: " + i + " and " + j);
+  }
 }
